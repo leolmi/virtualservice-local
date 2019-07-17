@@ -1,6 +1,6 @@
 {
   "name": "virtualservice-local",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "description": "virtual service local",
   "author": {
@@ -9,15 +9,15 @@
     "url": "http://..."
   },
   "license": "MIT",
-  "url": "https://github.com/leolmi/virtualservice.local",
-  "main": "server/cli.js",
+  "url": "https://github.com/leolmi/virtualservice-local",
+  "main": "cli.js",
   "preferGlobal": true,
   "bin": {
-    "vs": "./server/cli.js"
+    "vs": "./cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leolmi/virtualservice.local.git"
+    "url": "https://github.com/leolmi/virtualservice-local.git"
   },
   "dependencies": {
     "body-parser": "^1.18.3",

@@ -8,7 +8,6 @@ const Options = function(args) {
 Options.prototype = {
   check() {
     if (!this.files || this.files.length<=0) return 'Undefined api files/folder!';
-    console.log(`${this.files.length} api file/folder founded!`);
   }
 };
 

@@ -1,0 +1,48 @@
+{
+  "name": "virtualservice-local",
+  "version": "0.0.1",
+  "private": false,
+  "description": "virtual service local",
+  "author": {
+    "name": "Leonardo Olmi <leo.olmi@gmail.com>",
+    "email": "leo.olmi@gmail.com",
+    "url": "http://..."
+  },
+  "license": "MIT",
+  "url": "https://github.com/leolmi/virtualservice.local",
+  "main": "server/cli.js",
+  "preferGlobal": true,
+  "bin": {
+    "vs": "./server/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leolmi/virtualservice.local.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "composable-middleware": "^0.3.0",
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.3",
+    "ejs": "2.5.5",
+    "errorhandler": "~1.0.0",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.3.0",
+    "jszip": "^3.1.5",
+    "lodash": "~4.17.4",
+    "method-override": "~3.0.0",
+    "moment": "^2.10.6",
+    "morgan": "^1.9.1",
+    "nodemailer": "^5.1.1",
+    "passport": "~0.2.0",
+    "passport-local": "~0.1.6",
+    "q": "^1.4.1",
+    "serve-favicon": "^2.5.0",
+    "yargs": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

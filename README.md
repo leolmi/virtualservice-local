@@ -1,7 +1,6 @@
 # virtualservice local
-virtual service simulator
+virtual service local simulator
 
-## local runner for virtualservice
 
 ## USE
 

@@ -1,6 +1,6 @@
 {
   "name": "virtualservice-local",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "description": "virtual service local",
   "author": {
